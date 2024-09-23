@@ -8,9 +8,9 @@ const Home = () => {
       <Header />
       <div class="container">
   <h1 className={styles.title}>Welcome to My Portfolio</h1>
-  <p>Here, you’ll find a collection of my projects and ideas.
+  <p>Here, you will find a collection of my projects and ideas.
 I believe in the power of creativity to transform visions into reality.
-Let’s connect and explore how we can collaborate!</p>
+Lets connect and explore how we can collaborate!</p>
 </div>
        
       

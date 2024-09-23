@@ -1,11 +1,9 @@
 // app/layout.js
 import '../styles/globals.css';
 
-export const metadata = {
-  title: 'My Portfolio',
-  description: 'Showcasing my projects and skills.',
-};
-
+/**
+ * @param {{ children: React.ReactNode }} props
+ */
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
@@ -13,3 +11,8 @@ export default function RootLayout({ children }) {
     </html>
   );
 }
+
+export const metadata = {
+  title: 'My Portfolio',
+  description: 'Showcasing my projects and skills.',
+};

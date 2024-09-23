@@ -8,7 +8,7 @@ const About = () => {
       <Header />
       <div className={styles.content}>
         <div className={styles.text}>
-          <p>Hi, I'm MINA Adel, a junior developer.</p>
+          <p>Hi Iam MINA Adel a junior developer.</p>
           <p>Front-end React Js</p>
         </div>
         <div>

@@ -1,0 +1,94 @@
+/* styles/globals.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 1em;
+    padding: 0;
+
+  }
+  
+  nav {
+    background: #333;
+    color: white;
+    padding: 1em;
+    align-items: center;
+    justify-content: center;
+    display: flex; 
+    font-size: large;
+    margin: 1em;
+  }
+  
+  nav a {
+    margin-right: 15px;
+    color: white;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    display: flex; 
+  }
+  .title {
+    font-size: 2.5rem;
+    color: #333;
+  }
+  
+  .description {
+    font-size: 1.2rem;
+    color: #666;
+    line-height: 1.5;
+  }
+  .container {
+    display: flex;              /* Use flexbox */
+    align-items: center;        /* Center vertically */
+    justify-content: center;    /* Center horizontally */
+    height: 100vh;              /* Full viewport height */
+  }
+  /* styles.css or Projects.module.css */
+
+.project-list {
+  display: flex;
+  flex-wrap: wrap; /* Allow wrapping */
+  justify-content: center; /* Center items */
+  padding: 1em;
+}
+
+.project-card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 1em;
+  margin: 1em; /* Add margin */
+  text-align: center;
+  flex: 1; /* Allow flexible growth */
+}
+
+.project-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.project-link {
+  display: inline-block;
+  margin-top: 1em;
+  color: #0070f3;
+  text-decoration: underline;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+  .project-card {
+    width: 100%; /* Full width on small screens */
+    margin: 0.5em 0; /* Reduce margin for mobile */
+  }
+}
+
+@media (min-width: 769px) {
+  .project-card {
+    width: 45%; /* Adjust width for tablets and above */
+    margin: 1em; /* Add margin */
+  }
+}
+
+@media (min-width: 1200px) {
+  .project-card {
+    width: 30%; /* Adjust width for larger screens */
+  }
+}

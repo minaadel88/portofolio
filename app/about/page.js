@@ -13,7 +13,7 @@ const About = () => {
         </div>
         <div>
           <p>Check out my CV:</p>
-          <a href="cv.pdf" target="_blank" rel="noopener noreferrer">
+          <a href="cv1.pdf" target="_blank" rel="noopener noreferrer">
             Download CV
           </a>
         </div>
